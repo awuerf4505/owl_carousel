@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Nature Landscapes</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <h1>Nature Landscapes</h1>
+
+<div class="owl-carousel">
+  <div class="item"><img src="img/fall_road.jpg"></div>
+  <div class="item"><img src="img/field.jpg"></div>
+  <div class="item"><img src="img/grand_canyon.jpg"></div>
+  <div class="item"><img src="img/green_forest.jpg"></div>
+  <div class="item"><img src="img/snowy_tree.jpg"></div>
+  <div class="item"><img src="img/sunset.jpg"></div>
+  <div class="item"><img src="img/swamp.jpg"></div>
+  <div class="item"><img src="img/mountain_river.jpg"></div>
+</div>
+
+    <!-- JavaScript -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+
+    <script>
+    $(document).ready(function() {
+      $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        autoplay:true,
+        autoplayTimeout:2000,
+        autoplayHoverPause:true,
+        items : 1,
+        nav: false,
+        dots : true
+      })
+     })
+    </script>
+  </body>
+</html>
